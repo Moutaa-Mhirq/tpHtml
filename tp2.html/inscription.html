@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inscription</title>
+</head>
+<body>
+    <p>Inscription en licence</p>
+    <div >
+        <form method="post" >
+    <p>
+        <label for="nom">Votre nom :</label>
+        <input type="text" name="nom" id="nom" placeholder="votre nom?" size="30" maxlength="10" />
+    </p>
+     <p>
+        <label for="prenom">Votre prenom :</label>
+        <input type="text" name="prenom " id="prenom " placeholder="votre prenom ?" size="30" maxlength="10" />
+    </p>
+     <p>
+        <label for="age">Votre age :</label>
+        <input type="number" name="age " id="age" placeholder="votre age?" size="30" maxlength="10" />
+    </p>
+     <p>
+       <label for="adress">votre adress?</label>
+       <textarea name="adress" id="adress"></textarea>
+   </p>
+    <p>
+       <label for="pass">mot de passe :</label>
+       <input type="password" name="pass" id="pass" />
+       
+    </p>
+    <p>
+       <label for="pass">retaper Votre mot de passe :</label>
+       <input type="password" name="pass" id="pass" />
+       
+   </p>
+</form>
+    </div>
+    <div>
+   <form> 
+ <p>
+     votre groupe :
+       <input type="checkbox" name="g1" id="g1" /> <label for="g1">g1</label>
+       <input type="checkbox" name="g2" id="g2" /> <label for="g2">g2</label>
+       <input type="checkbox" name="g3" id="g3" /> <label for="g3">g3</label>
+   
+</p>
+ <p>
+        <label for="carte">numero de carte etudiant :</label>
+        <input type="text" name="carte " id="carte " placeholder="numero de carte?" size="30" maxlength="10" />
+    </p>
+      <p>
+       <label for="option">choisissez les options que vous desirez :</label>
+       <select name="option" id="option">
+           <option value="J2ee">J2ee</option>
+           <option value="Android">Android</option>
+           <option value=".Net">.Net</option>
+           <option value="HTML5">HTML5</option>
+           <option value="Flex">Flex</option>
+         
+       </select>
+   </p>
+</form>
+</div>
+<div>
+    <input type="submit" value="valider" /><input type="submit" value="réinitialiser" />
+</div>
+</body>
+</html>
